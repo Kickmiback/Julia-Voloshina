@@ -1,0 +1,228 @@
+/* open-sans-regular - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('../fonts/open-sans-v34-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/open-sans-v34-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* open-sans-600 - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+        url('../fonts/open-sans-v34-latin-600.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/open-sans-v34-latin-600.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* open-sans-700 - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+        url('../fonts/open-sans-v34-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/open-sans-v34-latin-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* open-sans-italic - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: local(''),
+        url('../fonts/open-sans-v34-latin-italic.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/open-sans-v34-latin-italic.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* open-sans-800italic - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 800;
+    src: local(''),
+        url('../fonts/open-sans-v34-latin-800italic.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/open-sans-v34-latin-800italic.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* Page */
+.page {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.page__inner {
+    display: block;
+}
+
+.page__inner_intro {
+    padding-top: 10px;
+}
+
+.page__inner_grey {
+    background-color: #f6f2f2;
+}
+
+.page__inner_dark {
+   background-color: #2c2c2c; 
+}
+
+.page__inner_section {
+    padding: 0 1vw;
+    padding-top: 75px;
+    padding-bottom: 110px;
+}
+
+.page__header {
+    margin: 0 auto;
+}
+
+.page__inner_subscribe {
+    padding: 0 1vw;
+}
+
+.page__inner_footer {
+    padding: 0 1vw;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: center;
+    max-width: 1249px;
+    min-height: 89px;
+    background-color: #6257FE;
+}
+
+.site-menu {
+    padding-right: 100px;
+}
+
+.site-menu__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.site-menu__itsm {
+    display: flex;
+    min-height: 89px;
+}
+
+.site-menu__link {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.site-menu__link:hover {
+    background-color: darkblue;
+}
+
+.site-menu__link_active {
+    background-color: darkblue;
+}
+
+/* Popup meenu */
+.popup-menu {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.popup-menu__button {
+   display: block;
+   width: 200px;
+   height: 80px;
+   background-image: url('../img/menu-con.svg'); 
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+   border: none;
+   border-radius: 5px;
+}
+
+
+.popup-menu__list {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 100%);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+
+
+.popup-menu__itsm {
+    display: flex;
+    min-height: 89px;
+}
+
+.popup-menu__link {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 71px;
+    align-items: center;
+    padding: 0 30px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.popup-menu__link:hover {
+    background-color: darkblue;
+}
+
+.popup-menu__link_active {
+    background-color: darkblue;
+}
+
+.footer__social-link {
+    display: block;
+    display: flex;
+    gap: 18px;
+    margin-top: 12px;  
+    width: 250px;
+    height: 64px; 
+    
+}
+
+.social__link {
+    display: inline-block;
+    
+}
