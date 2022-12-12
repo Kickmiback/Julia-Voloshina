@@ -72,93 +72,57 @@
 }
 
 .page__inner_intro {
-    padding-top: 10px;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
-
 
 .page__inner_grey {
     background-color: #f6f2f2;
 }
 
-.page__inner_dark {
-   background-color: #2c2c2c; 
-}
-
-.page__inner_section {
-    padding: 0 1vw;
-    padding-top: 75px;
-    padding-bottom: 110px;
-}
-
-
 .page__header {
     margin: 0 auto;
-}
-
-.page__inner_subscribe {
-    padding: 0 1vw;
-}
-
-.page__inner_footer {
-    padding: 0 1vw;
 }
 
 /* Header */
 .header {
     display: flex;
-    justify-content: center;
-    max-width: 1249px;
-    min-height: 89px;
-    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: space-between;
+    max-width: 1170px;
+    min-height: 89px; 
+     
 }
 
-.site-menu {
-    padding-right: 0px;
+.img-logo {
+    height: 100px;
 }
 
-
-.site-menu__list {
+.icon-page {
     display: flex;
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
-    list-style: none;
+    list-style: none; 
 }
 
-
-.site-menu__itsm {
-    display: flex;
-    min-height: 89px;
-}
-
-.site-menu__link {
-    font-family: 'Open Sans', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: flex;
-    align-items: center;
-    padding: 0 30px;
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: 700;
-    text-decoration: none;
+.txt-logo {
+    max-width: 1249px;
+    margin-left: 22px;
+    margin-top: 32px;
+    /* font-size: clamp(2em, 2em + 2vw, 60px); */
+    font-variation-settings: "wght" 800;
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
-    color: #fff;
-}
-
-.site-menu__link:hover {
-    background-color: #ff3f40;
-}
-
-.site-menu__link_active {
-    background-color: #ff3f40;
+    margin-bottom: 10px;
 }
 
 .section-social__link {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;;
-    align-items: flex-start;
-    max-width: 1249px;
-    margin: initial;
+    max-width: 1249px; 
 }
 
 .social__link {
