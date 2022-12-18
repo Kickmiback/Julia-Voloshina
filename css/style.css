@@ -95,7 +95,8 @@
 }
 
 .img-logo {
-    height: 100px;
+    height: 50px;
+    margin-top: 20px;
 }
 
 .icon-page {
@@ -129,15 +130,16 @@
     display: block;
     display: flex;
     gap: 18px;
-    height: 65px;
+    height: 57px;
     margin-top: 12px;
     margin-left: 25px;
 }
 
 /* Main */
+/* Intro */
 .page__inner_section {
     padding: 0 1vw;
-    padding-top: 75px;
+    padding-top: 60px;
     padding-bottom: 110px;
 }
 
@@ -201,7 +203,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 227px;
+    /* width: 227px; */
     padding: 0.5em 1em;
     min-height: 55px;
     font-weight: 700;
@@ -210,6 +212,59 @@
     border-radius: 5px;
     text-decoration: none;
     margin-bottom: 40px;
-    background-color: #ff2d2d;
+    background-color: #9907da;
     color: #fff;
+}
+
+/* Servives */
+.services {
+    display: flex;
+    max-width: 1249px;
+    margin: 0 auto;
+    padding: 0 1vw;
+    padding-top: 107px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #ECECEC;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.services__info {
+    margin: 0;
+}
+
+.services__heading {
+    font-family: 'Open Sans', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    margin-bottom: 35px;
+    display: flex;
+    font-size: clamp(2em, 2em + 2vw, 48px);
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.services__about {
+    font-family: 'Open Sans', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    margin-bottom: 64px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.services__items {
+    min-width: 56px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px 25px;
+}
+
+.services__item {
+    width: 285px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    background-size: auto;
 }
