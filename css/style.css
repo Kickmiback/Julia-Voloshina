@@ -183,7 +183,7 @@
     font-variation-settings: "wght" 800;
     line-height: 1.2;
     font-weight: 800;
-    letter-spacing: 1.5px;
+    letter-spacing: 2.5px;
     text-transform: uppercase;
     margin: 0;
     margin-bottom: 10px;
@@ -384,7 +384,7 @@
     margin: 0 auto;
     padding: 0;
     padding-top: 121px;
-    padding-bottom: 53px;
+    padding-bottom: 127px;;
     text-align: center;
     max-width: 1249px;
 }
@@ -439,8 +439,8 @@
     width: 100%;
     max-width: 100%;
     margin: 0 auto;
-    background: linear-gradient(270deg, #9907da 34%, transparent 15%);
-    padding: 121px 0 152px;
+    background: linear-gradient(270deg, #9907da 43%, transparent 43%);
+    padding: 90px 0 90px;
     box-sizing: border-box;
     display: block;
     text-align: left;
@@ -464,7 +464,7 @@
 
 .contact__body {
     display: grid;
-    grid-template-columns: 1fr 535px 393px 329px 1fr;
+    grid-template-columns: 1fr 450px 450px 364px 1fr;
     grid-template-rows: auto;
 }
 
@@ -531,7 +531,7 @@
 
 .contacts-maps {
     width: 100%;
-    max-width: 392px;
+    max-width: 400px;
     margin: 0 auto;
     margin-bottom: 38px;
     display: block;
@@ -547,7 +547,7 @@
 .contacts__address {
     font-family: 'Open Sans', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.75;
-    font-size: 18px;
+    font-size: 20px;
     margin: 0;
     margin-bottom: 27px;
 }
@@ -557,6 +557,7 @@
     font-family: 'Open Sans', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #fff;
     margin: 0;
+    font-size: 18px;
     margin-bottom: 20px; 
 }
 
@@ -565,4 +566,5 @@
     font-family: 'Open Sans', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #fff;
     margin: 0;
+    font-size: 18px;
 }
