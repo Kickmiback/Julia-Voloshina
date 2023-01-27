@@ -89,6 +89,7 @@
 .header {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     max-width: 1249px;
     min-height: 89px; 
      
@@ -101,7 +102,6 @@
 
 .icon-page {
     display: flex;
-    flex-wrap: wrap;
     margin: 0;
     padding: 0;
     list-style: none; 
@@ -110,7 +110,7 @@
 .txt-logo {
     max-width: 1249px;
     margin-left: 22px;
-    margin-top: 32px;
+    margin-top: 17px;
     /* font-size: clamp(2em, 2em + 2vw, 60px); */
     font-variation-settings: "wght" 800;
     line-height: 1.2;
@@ -140,7 +140,7 @@
 .page__inner_section {
     padding: 0 1vw;
     padding-top: 60px;
-    padding-bottom: 110px;
+    padding-bottom: 60px;
 }
 
 .page__inner_grey {
@@ -160,15 +160,28 @@
     justify-content: space-between;
 }
 
+@media screen and (min-width: 800px) and (max-width: 1240px) {
+    .intro {
+        flex-wrap: nowrap;  
+    } 
+}
+
 .intro__products {
     display: flex;
     flex-wrap: wrap;
 }
 
+
 .intro__product {
     width: 502px;
     height: 477px;
     object-fit: cover;
+}
+
+@media screen and (max-width: 1240px) {
+    .intro__product {
+        width: 95%;
+    }
 }
 
 .intro__info {
@@ -204,7 +217,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 346px;
+    width: 325px;
     padding: 0.5em 1em;
     min-height: 55px;
     font-weight: 700;
@@ -217,6 +230,14 @@
     background-color: #9907da;
     color: #fff;
 }
+
+@media screen and (max-width: 800px) {
+    .action-link {
+        margin-bottom: auto;
+        margin-block: auto;
+    }
+}
+
 
 /* Servives */
 .services {
@@ -358,7 +379,6 @@
 
 .feature__about {
     font-family: 'Open Sans', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: 537px;
     max-width: 537px;
     margin: 0 auto;
     margin-bottom: 34px;
@@ -375,6 +395,14 @@
     margin: 0 auto;
     justify-content: space-between;
     object-fit: cover;
+    width: 870px;
+    height: 471px;
+}
+
+@media screen and (max-width: 1240px) {
+    .feature__video {
+        width: 95%;
+    }
 }
 
 /* Examples */
@@ -587,11 +615,11 @@
 
 .footer__coperight {
     margin: 0;
-    line-height: 6.75;
+    padding: 44px 0 0;
 }
 
 .footer__social-link {
     display: flex;
-    gap: 18px;
+    gap: 5px;
     margin-top: 12px;
 }
