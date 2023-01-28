@@ -395,8 +395,8 @@
     margin: 0 auto;
     justify-content: space-between;
     object-fit: cover;
-    width: 870px;
-    height: 471px;
+    width: 900px;
+    height: 500px;
 }
 
 @media screen and (max-width: 1240px) {
@@ -467,10 +467,12 @@
     max-width: 100%;
     margin: 0 auto;
     background: linear-gradient(270deg, #9907da 43%, transparent 43%);
-    padding: 90px 0 90px;
-    box-sizing: border-box;
-    display: block;
-    text-align: left;
+}
+
+@media screen and (max-width: 1248px) {
+    .contact  {
+        background: linear-gradient(0deg, #9907da 43%, transparent 43%);
+    } 
 }
 
 .contact__header {
@@ -478,6 +480,13 @@
     margin: 0 auto;
     margin-bottom: 77px;
     padding: 0 1vw
+}
+
+@media screen and (max-width: 1248px) {
+    .contact__header {
+        margin: 0; 
+        text-align: center;
+    }
 }
 
 .contact__heardang {
@@ -495,6 +504,15 @@
     grid-template-rows: auto;
 }
 
+
+@media screen and (max-width: 1248px) {
+    .contact__body {
+        grid-template-columns: 1fr auto 1fr;
+        row-gap: 19px;
+    }
+}
+
+
 .contact__form {
     width: 100%;
     display: grid;
@@ -502,6 +520,13 @@
     justify-content: space-between;
     margin-right: 1px;
     grid-column: 2 / 3;
+}
+
+@media screen and (max-width: 1248px) {
+    .contact__form {
+        grid-column: 2 / 3;
+        margin-right: initial;  
+    }
 }
 
 .contact__name {
@@ -514,8 +539,15 @@
     border-radius: 5px;
     padding: 31px 51px;
     margin-right: 53px;
-    /* margin-bottom: 44px; */
+    margin-bottom: 44px;
     font-size: 16px;  
+}
+
+@media screen and (max-width: 1248px) {
+    .contact__name {
+        width: 100%;
+        margin-right: initial; 
+    } 
 }
 
 .contact__emailec {
@@ -562,13 +594,28 @@
     margin: 0 auto;
     margin-bottom: 38px;
     display: block;
+    grid-column: 3 / 4;
+}
+
+@media screen and (max-width: 1248px) {
+    .contacts-maps {
+        grid-column: 1 / 4;
+        max-width: -webkit-fill-available; 
+    }
 }
 
 .contacts-feedback {
     width: 315px;
-    padding: 88px 14px 137px 16px; 
+    padding: 88px 14px 137px 40px; 
     color: #fff;
     grid-column: 4 / 5;
+}
+
+@media screen and (max-width: 1248px) {
+    .contacts-feedback {
+        grid-column: 4 / 2;
+        max-width: -webkit-fill-available;
+    }
 }
 
 .contacts__address {
