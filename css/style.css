@@ -193,7 +193,7 @@
 .intro__heading {
     font-family: 'Open Sans', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: clamp(2em, 2em + 2vw, 60px);
-    font-variation-settings: "wght" 800;
+    font-variation-settings: "wght" 700;
     line-height: 1.2;
     font-weight: 800;
     letter-spacing: 2.5px;
@@ -457,7 +457,7 @@
 
 .examples__product {
     object-fit: cover;
-    object-position: 45% 67%;
+    object-position: 23% 43%;
     flex: 1 1;
 }
 
