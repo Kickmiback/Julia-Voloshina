@@ -263,7 +263,7 @@
     margin-bottom: 35px;
     display: flex;
     font-size: clamp(2em, 2em + 2vw, 48px);
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: 0.5px;
     text-transform: uppercase;
 }
@@ -294,26 +294,31 @@
 
 .services__item_icon_manag {
     display: block;
-    height: 190px;
+    /* height: 190px; */
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.10);
+    object-position: 67% 67%;
+    object-fit: cover;
  }
 
 .services__item_icon_design {
     display: block;
-    height: 190px;
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.10);
+    object-position: 20% 67%;
+    object-fit: cover;
  }
  
 .services__item_icon_logo {
     display: block;
-    height: 190px;
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.10);
+    object-position: 34% 67%;
+    object-fit: cover;
  }
   
 .services__item_icon_anim {
     display: block;
-    height: 190px;
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.10);
+    object-position: 54% 67%;
+    object-fit: cover;
  }
 
  .hor-line {
@@ -491,7 +496,7 @@
 
 .contact__heardang {
     font-family: 'Open Sans', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: clamp(2em, 2em + 2vw, 48px);
+    font-size: clamp(2em, 1em + 2vw, 48px);
     font-weight: 700;
     margin: 0;
     margin-bottom: 35px;
